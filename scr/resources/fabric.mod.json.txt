@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "arenakicker",
+  "version": "1.0.0",
+  "name": "Arena Kicker",
+  "description": "Кикает игроков через подмену ника на прямых IP арен",
+  "authors": ["me"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/arenakicker/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "me.yourname.arenakicker.ArenaKicker"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "fabric-api": "*"
+  }
+}
